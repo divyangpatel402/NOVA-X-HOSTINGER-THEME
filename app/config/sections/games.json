@@ -1,0 +1,910 @@
+{
+  "planTypes": [
+    {
+      "id": "budget",
+      "name": "Intel Core i7",
+      "image": "/icons/inteli7.png"
+    },
+    {
+      "id": "premium",
+      "name": "Intel Core i9",
+      "image": "/cpu/intel.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "us-east-1",
+      "name": "N. Virginia",
+      "flag": "/flags/usa.png",
+      "displayName": "N. Virginia (US East)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "us-east-2",
+      "name": "Ohio",
+      "flag": "/flags/usa.png",
+      "displayName": "Ohio (US East)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "us-west-1",
+      "name": "N. California",
+      "flag": "/flags/usa.png",
+      "displayName": "N. California (US West)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "us-west-2",
+      "name": "Oregon",
+      "flag": "/flags/usa.png",
+      "displayName": "Oregon (US West)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-south-2",
+      "name": "Hyderabad",
+      "flag": "/flags/india.png",
+      "displayName": "Hyderabad (India)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-south-1",
+      "name": "Mumbai",
+      "flag": "/flags/india.png",
+      "displayName": "Mumbai (India)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-northeast-3",
+      "name": "Osaka",
+      "flag": "/flags/japanese.png",
+      "displayName": "Osaka (Japan)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-northeast-2",
+      "name": "Seoul",
+      "flag": "/flags/south-korea.png",
+      "displayName": "Seoul (South Korea)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-southeast-1",
+      "name": "Singapore",
+      "flag": "/flags/singapore.png",
+      "displayName": "Singapore (Singapore)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-southeast-2",
+      "name": "Sydney",
+      "flag": "/flags/australia.png",
+      "displayName": "Sydney (Australia)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ap-northeast-1",
+      "name": "Tokyo",
+      "flag": "/flags/japanese.png",
+      "displayName": "Tokyo (Japan)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "ca-central-1",
+      "name": "Central",
+      "flag": "/flags/canada.png",
+      "displayName": "Central (Canada)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "eu-central-1",
+      "name": "Frankfurt",
+      "flag": "/flags/germany.png",
+      "displayName": "Frankfurt (Europe)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "eu-west-1",
+      "name": "Ireland",
+      "flag": "/flags/ireland.png",
+      "displayName": "Ireland (Europe)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "eu-west-2",
+      "name": "London",
+      "flag": "/flags/uk.png",
+      "displayName": "London (Europe)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "eu-west-3",
+      "name": "Paris",
+      "flag": "/flags/france.png",
+      "displayName": "Paris (Europe)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "sa-east-1",
+      "name": "São Paulo",
+      "flag": "/flags/brazil.png",
+      "displayName": "São Paulo (South America)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "eu-north-1",
+      "name": "Stockholm",
+      "flag": "/flags/sweden.png",
+      "displayName": "Stockholm (Europe)",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "description": "Build, explore, and survive in the ultimate sandbox game",
+      "icon": "/icons/minecraft-icon.webp",
+      "banner": "/banners/minecraft-banners.webp",
+      "featured": true,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#4CAF50",
+      "plans": {
+        "budget": [
+          {
+            "id": "minecraft-budget-1",
+            "name": "Minecraft 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/minecraft-8gb"
+          },
+          {
+            "id": "minecraft-budget-2",
+            "name": "Minecraft 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/minecraft-16gb"
+          },
+          {
+            "id": "minecraft-budget-3",
+            "name": "Minecraft 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/minecraft-32gb"
+          },
+          {
+            "id": "minecraft-budget-4",
+            "name": "Minecraft 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/minecraft-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "minecraft-premium-1",
+            "name": "Minecraft 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/minecraft-8gb"
+          },
+          {
+            "id": "minecraft-premium-2",
+            "name": "Minecraft 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/minecraft-16gb"
+          },
+          {
+            "id": "minecraft-premium-3",
+            "name": "Minecraft 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/minecraft-32gb"
+          },
+          {
+            "id": "minecraft-premium-4",
+            "name": "Minecraft 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/minecraft-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gmod",
+      "name": "Garry's Mod",
+      "description": "Create and play in endless user-generated content",
+      "icon": "/icons/gmod-icon.webp",
+      "banner": "/banners/gmod-banner.webp",
+      "featured": false,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#FF6B35",
+      "plans": {
+        "budget": [
+          {
+            "id": "gmod-budget-1",
+            "name": "Garry's Mod 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/gmod-8gb"
+          },
+          {
+            "id": "gmod-budget-2",
+            "name": "Garry's Mod 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/gmod-16gb"
+          },
+          {
+            "id": "gmod-budget-3",
+            "name": "Garry's Mod 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/gmod-32gb"
+          },
+          {
+            "id": "gmod-budget-4",
+            "name": "Garry's Mod 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/gmod-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "gmod-premium-1",
+            "name": "Garry's Mod 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/gmod-8gb"
+          },
+          {
+            "id": "gmod-premium-2",
+            "name": "Garry's Mod 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/gmod-16gb"
+          },
+          {
+            "id": "gmod-premium-3",
+            "name": "Garry's Mod 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/gmod-32gb"
+          },
+          {
+            "id": "gmod-premium-4",
+            "name": "Garry's Mod 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/gmod-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "csgo",
+      "name": "CS:GO",
+      "description": "Competitive tactical first-person shooter",
+      "icon": "/icons/cs2-icon.webp",
+      "banner": "/banners/cs2-banner.webp",
+      "featured": true,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#F39C12",
+      "plans": {
+        "budget": [
+          {
+            "id": "csgo-budget-1",
+            "name": "CS:GO 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/csgo-8gb"
+          },
+          {
+            "id": "csgo-budget-2",
+            "name": "CS:GO 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/csgo-16gb"
+          },
+          {
+            "id": "csgo-budget-3",
+            "name": "CS:GO 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/csgo-32gb"
+          },
+          {
+            "id": "csgo-budget-4",
+            "name": "CS:GO 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/csgo-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "csgo-premium-1",
+            "name": "CS:GO 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/csgo-8gb"
+          },
+          {
+            "id": "csgo-premium-2",
+            "name": "CS:GO 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/csgo-16gb"
+          },
+          {
+            "id": "csgo-premium-3",
+            "name": "CS:GO 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/csgo-32gb"
+          },
+          {
+            "id": "csgo-premium-4",
+            "name": "CS:GO 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/csgo-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "description": "Survive, build, and dominate in this harsh multiplayer world",
+      "icon": "/icons/rust-icon.webp",
+      "banner": "/banners/rust-banner-2.webp",
+      "featured": false,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#CE422B",
+      "plans": {
+        "budget": [
+          {
+            "id": "rust-budget-1",
+            "name": "Rust 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/rust-8gb"
+          },
+          {
+            "id": "rust-budget-2",
+            "name": "Rust 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/rust-16gb"
+          },
+          {
+            "id": "rust-budget-3",
+            "name": "Rust 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/rust-32gb"
+          },
+          {
+            "id": "rust-budget-4",
+            "name": "Rust 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/rust-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "rust-premium-1",
+            "name": "Rust 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/rust-8gb"
+          },
+          {
+            "id": "rust-premium-2",
+            "name": "Rust 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/rust-16gb"
+          },
+          {
+            "id": "rust-premium-3",
+            "name": "Rust 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/rust-32gb"
+          },
+          {
+            "id": "rust-premium-4",
+            "name": "Rust 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/rust-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ark",
+      "name": "ARK: Survival Evolved",
+      "description": "Tame dinosaurs and survive in a prehistoric world",
+      "icon": "/icons/ark-icon.webp",
+      "banner": "/banners/ark-banners.webp",
+      "featured": false,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#8B4513",
+      "plans": {
+        "budget": [
+          {
+            "id": "ark-budget-1",
+            "name": "ARK: Survival Evolved 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/ark-8gb"
+          },
+          {
+            "id": "ark-budget-2",
+            "name": "ARK: Survival Evolved 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/ark-16gb"
+          },
+          {
+            "id": "ark-budget-3",
+            "name": "ARK: Survival Evolved 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/ark-32gb"
+          },
+          {
+            "id": "ark-budget-4",
+            "name": "ARK: Survival Evolved 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/ark-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "ark-premium-1",
+            "name": "ARK: Survival Evolved 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/ark-8gb"
+          },
+          {
+            "id": "ark-premium-2",
+            "name": "ARK: Survival Evolved 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/ark-16gb"
+          },
+          {
+            "id": "ark-premium-3",
+            "name": "ARK: Survival Evolved 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/ark-32gb"
+          },
+          {
+            "id": "ark-premium-4",
+            "name": "ARK: Survival Evolved 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/ark-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "valheim",
+      "name": "Valheim",
+      "description": "Explore and survive in a Norse mythology-inspired world",
+      "icon": "/icons/valheim-icon.webp",
+      "banner": "/banners/valheim-banner.webp",
+      "featured": true,
+      "startingAt": "₹169/mo",
+      "primaryColor": "#4A90E2",
+      "plans": {
+        "budget": [
+          {
+            "id": "valheim-budget-1",
+            "name": "Valheim 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/valheim-8gb"
+          },
+          {
+            "id": "valheim-budget-2",
+            "name": "Valheim 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/valheim-16gb"
+          },
+          {
+            "id": "valheim-budget-3",
+            "name": "Valheim 32 GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/valheim-32gb"
+          },
+          {
+            "id": "valheim-budget-4",
+            "name": "Valheim 64 GB",
+            "type": "budget",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/valheim-64gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "valheim-premium-1",
+            "name": "Valheim 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "4 Cores",
+            "storage": "120 GB NVMe",
+            "price": 169,
+            "orderLink": "https://order.example.com/valheim-8gb"
+          },
+          {
+            "id": "valheim-premium-2",
+            "name": "Valheim 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "200 GB NVMe",
+            "price": 289,
+            "orderLink": "https://order.example.com/valheim-16gb"
+          },
+          {
+            "id": "valheim-premium-3",
+            "name": "Valheim 32 GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "8 Cores",
+            "storage": "400 GB NVMe",
+            "price": 589,
+            "orderLink": "https://order.example.com/valheim-32gb"
+          },
+          {
+            "id": "valheim-premium-4",
+            "name": "Valheim 64 GB",
+            "type": "premium",
+            "ram": "64 GB",
+            "cpu": "8 Cores",
+            "storage": "500 GB NVMe",
+            "price": 889,
+            "orderLink": "https://order.example.com/valheim-64gb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "discord-nodejs",
+      "name": "Discord (NodeJS)",
+      "description": "Host your Discord bot with reliable NodeJS hosting",
+      "icon": "/icons/nodejs.png",
+      "banner": "/banners/node.webp",
+      "featured": true,
+      "startingAt": "₹10/mo",
+      "primaryColor": "#339933",
+      "plans": {
+        "budget": [
+          {
+            "id": "discord-budget-1",
+            "name": "Discord 512 MB",
+            "type": "budget",
+            "ram": "512 MB",
+            "cpu": "50% CPU",
+            "storage": "1 GB",
+            "price": 10,
+            "orderLink": "https://order.example.com/discord-512mb"
+          },
+          {
+            "id": "discord-budget-2",
+            "name": "Discord 1 GB",
+            "type": "budget",
+            "ram": "1 GB",
+            "cpu": "1 Core",
+            "storage": "2 GB",
+            "price": 20,
+            "orderLink": "https://order.example.com/discord-1gb"
+          },
+          {
+            "id": "discord-budget-3",
+            "name": "Discord 2 GB",
+            "type": "budget",
+            "ram": "2 GB",
+            "cpu": "1 Core",
+            "storage": "4 GB",
+            "price": 40,
+            "orderLink": "https://order.example.com/discord-2gb"
+          },
+          {
+            "id": "discord-budget-4",
+            "name": "Discord 4 GB",
+            "type": "budget",
+            "ram": "4 GB",
+            "cpu": "2 Cores",
+            "storage": "8 GB",
+            "price": 80,
+            "orderLink": "https://order.example.com/discord-4gb"
+          },
+          {
+            "id": "discord-budget-5",
+            "name": "Discord 8 GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "2 Cores",
+            "storage": "16 GB",
+            "price": 160,
+            "orderLink": "https://order.example.com/discord-8gb"
+          },
+          {
+            "id": "discord-budget-6",
+            "name": "Discord 16 GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "32 GB",
+            "price": 320,
+            "orderLink": "https://order.example.com/discord-16gb"
+          }
+        ],
+        "premium": [
+          {
+            "id": "discord-premium-1",
+            "name": "Discord 512 MB",
+            "type": "premium",
+            "ram": "512 MB",
+            "cpu": "50% CPU",
+            "storage": "1 GB",
+            "price": 10,
+            "orderLink": "https://order.example.com/discord-512mb"
+          },
+          {
+            "id": "discord-premium-2",
+            "name": "Discord 1 GB",
+            "type": "premium",
+            "ram": "1 GB",
+            "cpu": "1 Core",
+            "storage": "2 GB",
+            "price": 20,
+            "orderLink": "https://order.example.com/discord-1gb"
+          },
+          {
+            "id": "discord-premium-3",
+            "name": "Discord 2 GB",
+            "type": "premium",
+            "ram": "2 GB",
+            "cpu": "1 Core",
+            "storage": "4 GB",
+            "price": 40,
+            "orderLink": "https://order.example.com/discord-2gb"
+          },
+          {
+            "id": "discord-premium-4",
+            "name": "Discord 4 GB",
+            "type": "premium",
+            "ram": "4 GB",
+            "cpu": "2 Cores",
+            "storage": "8 GB",
+            "price": 80,
+            "orderLink": "https://order.example.com/discord-4gb"
+          },
+          {
+            "id": "discord-premium-5",
+            "name": "Discord 8 GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "2 Cores",
+            "storage": "16 GB",
+            "price": 160,
+            "orderLink": "https://order.example.com/discord-8gb"
+          },
+          {
+            "id": "discord-premium-6",
+            "name": "Discord 16 GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "4 Cores",
+            "storage": "32 GB",
+            "price": 320,
+            "orderLink": "https://order.example.com/discord-16gb"
+          }
+        ]
+      }
+    }
+  ]
+}

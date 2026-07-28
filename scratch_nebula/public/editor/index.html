@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="background-color: #050404">
+  <head>
+    <meta http-equiv="refresh" content="2; URL='editor.php'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/extensions/nebula/editor/assets/favicon.ico">
+    <title>Nebula Designer</title>
+  </head>
+  <body>
+    <div class="content">
+      <p style="color: white; text-align: center; font-size: 55px;">
+        <i class="bi bi-exclude"></i> <span style="font-weight: 600">Designer</span><br style="padding-bottom:3px"/>
+        <svg width="30" height="30" stroke="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_V8m1{transform-origin:center;animation:spinner_zKoa 2s linear infinite}.spinner_V8m1 circle{stroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite}@keyframes spinner_zKoa{100%{transform:rotate(360deg)}}@keyframes spinner_YpZS{0%{stroke-dasharray:0 150;stroke-dashoffset:0}47.5%{stroke-dasharray:42 150;stroke-dashoffset:-16}95%,100%{stroke-dasharray:42 150;stroke-dashoffset:-59}}</style><g class="spinner_V8m1"><circle cx="12" cy="12" r="9.5" fill="none" stroke-width="3"></circle></g></svg>
+      </p>
+    </div>
+    <div class="back">
+      <a href="/admin/extensions" onclick="preventDefault(); window.location = document.referrer">
+        <button class="back-button"><i class="bi bi-arrow-left" style="margin-right: 10px;"></i> Back</button>
+      </a>
+    </div>
+  </body>
+</html>
+<style>
+  @import url("https://cdn.nebula.style/icons/bootstrap/bootstrap-icons.css");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  body { font-family: 'Inter', sans-serif; }
+  
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .back {
+    position: fixed;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+  }
+  .back-button {
+    color: white;
+    font-size: 20px;
+    background-color: #222222;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+  }
+  .back a {
+    cursor:pointer;
+  }
+</style>

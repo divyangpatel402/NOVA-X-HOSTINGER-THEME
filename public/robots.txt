@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Crawl-delay: 10
+Sitemap: https://nova.dezerx.com/sitemap.xml
+
+# 41082KK6IXZXYLR7RHG6OLXX

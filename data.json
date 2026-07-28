@@ -1,0 +1,160 @@
+{
+  "orders": [
+    {
+      "orderId": "AKMRZ738OO",
+      "product": "intel-7 8 GB",
+      "price": 179,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "PENDING",
+      "clientConfig": {},
+      "timestamp": 1784912957880,
+      "gatewayOrderId": 98,
+      "slottedAmount": 179.01,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=179.01&tn=ORDER98&cu=INR",
+      "lastFinalPrice": 179
+    },
+    {
+      "orderId": "AKMRW9BY5C",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "PENDING",
+      "clientConfig": {},
+      "timestamp": 1784735324832,
+      "gatewayOrderId": 94,
+      "slottedAmount": 10,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=10&tn=ORDER94&cu=INR",
+      "lastFinalPrice": 10
+    },
+    {
+      "orderId": "AKMRW3O8ZM",
+      "product": "intel-7 8 GB",
+      "price": 179,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "PENDING",
+      "clientConfig": {},
+      "timestamp": 1784725821058,
+      "gatewayOrderId": 92,
+      "slottedAmount": 179.01,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=179.01&tn=ORDER92&cu=INR",
+      "lastFinalPrice": 179
+    },
+    {
+      "orderId": "AKMRVXGQER",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "APPROVED",
+      "clientConfig": {},
+      "timestamp": 1784715392691,
+      "gatewayOrderId": 90,
+      "slottedAmount": 2,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=2&tn=ORDER90&cu=INR",
+      "lastFinalPrice": 2,
+      "couponCode": "NOVA80",
+      "discount": 80,
+      "originalPrice": 10,
+      "paymentVerified": true,
+      "deliveryDetails": "DONE ODER"
+    },
+    {
+      "orderId": "AKMRVX6AP0",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "APPROVED",
+      "clientConfig": {},
+      "timestamp": 1784714905764,
+      "gatewayOrderId": 87,
+      "slottedAmount": 5,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=5&tn=ORDER87&cu=INR",
+      "lastFinalPrice": 5,
+      "couponCode": "FREE",
+      "discount": 50,
+      "originalPrice": 10,
+      "paymentVerified": true,
+      "deliveryDetails": "CHUTTTTTTTTTTTTTTTTTTTTT"
+    },
+    {
+      "orderId": "AKMRVWWMB6",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "APPROVED",
+      "clientConfig": {},
+      "timestamp": 1784714454258,
+      "gatewayOrderId": 83,
+      "slottedAmount": 10.06,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=10.06&tn=ORDER83&cu=INR",
+      "lastFinalPrice": 10,
+      "paymentVerified": true
+    },
+    {
+      "orderId": "AKMRVV2O20",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "APPROVED",
+      "clientConfig": {},
+      "timestamp": 1784711377224,
+      "gatewayOrderId": 82,
+      "slottedAmount": 10.06,
+      "upiIntent": "upi://pay?pa=novaxsto@slc&am=10.06&tn=ORDER82&cu=INR",
+      "lastFinalPrice": 10,
+      "paymentVerified": true
+    },
+    {
+      "orderId": "AKMRVUUCZY",
+      "product": "Bot 512 MB",
+      "price": 10,
+      "user": {
+        "email": "dp6891954@gmail.com"
+      },
+      "status": "REJECTED",
+      "clientConfig": {},
+      "timestamp": 1784710989646,
+      "gatewayOrderId": 80,
+      "slottedAmount": 10.04,
+      "upiIntent": "upi://pay?pa=9723828049@ptaxis&am=10.04&tn=ORDER80&cu=INR",
+      "lastFinalPrice": 10
+    }
+  ],
+  "settings": {
+    "upiId": "novaxsto@slc",
+    "payeeName": "NOVA X Web Services",
+    "gatewayUrl": "https://slice-upi-gateway.novaxsmp-upi.workers.dev",
+    "gatewaySecret": "testsecret123",
+    "maintenanceMode": false,
+    "maintenanceMessage": "We are currently performing maintenance. Please check back soon! ",
+    "coupons": [
+      {
+        "code": "NOVA80",
+        "discount": 80,
+        "maxUses": 1,
+        "uses": 1
+      }
+    ]
+  },
+  "users": [
+    {
+      "username": "divyang2003",
+      "email": "dp6891954@gmail.com",
+      "password": "DIVYANG2003",
+      "timestamp": 1784715342302
+    }
+  ]
+}

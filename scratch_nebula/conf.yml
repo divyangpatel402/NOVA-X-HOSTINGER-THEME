@@ -1,0 +1,39 @@
+info:
+  name: "X HUB HOSTINGER"
+  identifier: "nebula"
+  description: "X HUB HOSTINGER - Premium Game Server Hosting."
+  flags: "hasInstallScript, hasExportScript, developerKeepApplicationCache, developerEscalateExportScript, developerEscalateInstallScript"
+  version: "2.0-1"
+  target: "beta-2024-08"
+  author: "prplwtf"
+  icon: "nebula.jpg"
+  website: ""
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  wrapper: "admin/layout.blade.php"
+  css: ""
+
+dashboard:
+  wrapper: "client/wrapper.blade.php"
+  css: ""
+  components: ""
+
+data:
+  directory: "private"
+  public: "public"
+
+requests:
+  views: "src/views"
+  controllers: ""
+  routers:
+    application: ""
+    client: ""
+    web: ""
+
+database:
+  migrations: ""
+
+console:
+  artisan: ""
